@@ -14,7 +14,7 @@ export default function App() {
   return (
     <React.Fragment>
       {/* Uncomment to see splash screen */}
-      <SplashScreen />
+      {/* <SplashScreen /> */}
       <Animated.View style={styles.mapView}>
         <Map />
       </Animated.View>
