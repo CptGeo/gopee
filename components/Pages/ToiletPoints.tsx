@@ -1,5 +1,5 @@
 import React from 'react';
-import Point from '../Point';
+import { Marker } from 'react-native-maps';
 
 import data from '../../data.json';
 
@@ -8,10 +8,10 @@ export default function ToiletPoints() {
     <React.Fragment>
       {data.map(item => {
         return (
-          <Point
+          <Marker
             key={item.key}
             draggable={true}
-            coordinates={item.coordinates}
+            coordinate={item.coordinates}
             image={require('../../assets/toilet.png')}
             title={`Lat: ${item.coordinates.latitude} - Lon: ${item.coordinates.longitude}`}
           />
