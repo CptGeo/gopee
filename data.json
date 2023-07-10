@@ -1,5 +1,6 @@
 [
     {
+        "key": 0,
         "coordinates": {
             "latitude": 49.000151510566566,
             "longitude": 16.623088170396255
@@ -7,6 +8,7 @@
         "type": "toilet"
     },
     {
+        "key": 1,
         "coordinates": {
             "latitude": 49.007151510566566,
             "longitude": 16.523088170396255
@@ -14,6 +16,7 @@
         "type": "toilet"
     },
     {
+        "key": 2,
         "coordinates": {
             "latitude": 49.090151510566566,
             "longitude": 16.683088170396255
