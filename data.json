@@ -4,53 +4,20 @@
             "latitude": 49.000151510566566,
             "longitude": 16.623088170396255
         },
-        "type": "toilet",
-        "fee": 0,
-        "title": "Shopping Center",
-        "description": "The shopping center toilet, the best out of them all",
-        "gender": "both",
-        "openDates": [[8, 20], [8, 20], [8, 20], [8, 20], [8, 20], [8, 20], [8, 20]],
-        "amenities": {
-            "sink": true,
-            "babyChanging": true,
-            "handicapped": true,
-            "stroller": true
-        }
+        "type": "toilet"
     },
     {
         "coordinates": {
             "latitude": 49.007151510566566,
             "longitude": 16.523088170396255
         },
-        "type": "toilet",
-        "fee": 0,
-        "title": "KFC Store",
-        "description": "KFC Store toilet",
-        "gender": "both",
-        "openDates": [[8, 20], [8, 20], [8, 20], [8, 20], [8, 20], [8, 20], [8, 20]],
-        "amenities": {
-            "sink": true,
-            "babyChanging": true,
-            "handicapped": true,
-            "stroller": true
-        }
+        "type": "toilet"
     },
     {
         "coordinates": {
             "latitude": 49.090151510566566,
             "longitude": 16.683088170396255
         },
-        "type": "toilet",
-        "fee": 0,
-        "title": "Burger King",
-        "description": "Burger king toilet is usually clean",
-        "gender": "both",
-        "openDates": [[8, 20], [8, 20], [8, 20], [8, 20], [8, 20], [8, 20], [8, 20]],
-        "amenities": {
-            "sink": true,
-            "babyChanging": true,
-            "handicapped": true,
-            "stroller": true
-        }
+        "type": "toilet"
     }
 ]
