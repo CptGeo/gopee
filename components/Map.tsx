@@ -1,6 +1,8 @@
 import MapView, {PROVIDER_GOOGLE, LatLng, Region, Camera} from 'react-native-maps'; // remove PROVIDER_GOOGLE import if not using Google Maps
 import {StyleSheet, View} from 'react-native';
+
 import Point from './Point';
+import ToiletPoints from './Pages/ToiletPoints';
 
 const coords: LatLng = {
   latitude: 49.18443280792867,
@@ -20,7 +22,6 @@ const camera: Camera = {
   zoom: 14,
   pitch: 0
 }
-
 
 const styles = StyleSheet.create({
   container: {
@@ -46,16 +47,9 @@ export function Map() {
         showsUserLocation
         followsUserLocation
         showsMyLocationButton
-        showsCompass
-        >
-        <Point
-          draggable={true}
-          coordinates={coords}
-          image={require('../assets/toilet.png')}
-          title="I am a toilet"
-          description="This toilet is really amazing"
-        />
-      </MapView>
+        showsCompass>
+          <ToiletPoints />
+        </MapView>
     </View>
   );
 }
