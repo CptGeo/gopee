@@ -1,7 +1,6 @@
 import MapView, {PROVIDER_GOOGLE, LatLng, Region, Camera} from 'react-native-maps'; // remove PROVIDER_GOOGLE import if not using Google Maps
 import {StyleSheet, View} from 'react-native';
 
-import Point from './Point';
 import ToiletPoints from './Pages/ToiletPoints';
 
 const coords: LatLng = {
