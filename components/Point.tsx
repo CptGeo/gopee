@@ -22,7 +22,6 @@ export default function Point(props: Props) {
 
     function handleDragEnd(e: MarkerDragStartEndEvent) {
         if (draggable) {
-            console.log("hello")
             setCurrentCoords(e.nativeEvent.coordinate);
         }
     }
