@@ -1,8 +1,9 @@
 
 import { StyleSheet, Animated } from "react-native";
 import React from "react";
-import { Map } from "./components/Map";
+
 import SplashScreen from "./components/SplashScreen"; 
+import { Map } from "./components/Map/Map";
 
 export default function App() {
   const styles = StyleSheet.create({
