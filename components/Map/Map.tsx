@@ -2,7 +2,7 @@ import MapView, { PROVIDER_GOOGLE, LatLng, Region, Camera } from 'react-native-m
 import { View } from 'react-native';
 
 import Toilets from '../MapPoints/Toilets';
-import {style} from "./Map.style";
+import { style } from "./Map.style";
 
 const coords: LatLng = {
   latitude: 49.18443280792867,
