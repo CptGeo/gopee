@@ -13,7 +13,7 @@ export default function ToiletPoints() {
             draggable={true}
             coordinate={item.coordinates}
             image={require('../../assets/toilet.png')}
-            title={`Lat: ${item.coordinates.latitude} - Lon: ${item.coordinates.longitude}`}
+            title={item.title}
           />
         );
       })}

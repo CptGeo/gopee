@@ -1,12 +1,8 @@
-import MapView, {
-  PROVIDER_GOOGLE,
-  LatLng,
-  Region,
-  Camera
-} from 'react-native-maps'; // remove PROVIDER_GOOGLE import if not using Google Maps
-import {StyleSheet, View} from 'react-native';
+import MapView, { PROVIDER_GOOGLE, LatLng, Region, Camera } from 'react-native-maps'; // remove PROVIDER_GOOGLE import if not using Google Maps
+import { View } from 'react-native';
 
-import ToiletPoints from './Pages/ToiletPoints';
+import Toilets from '../MapPoints/Toilets';
+import {style} from "./Map.style";
 
 const coords: LatLng = {
   latitude: 49.18443280792867,
@@ -27,24 +23,12 @@ const camera: Camera = {
   pitch: 0
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1
-  },
-  map: {
-    flex: 1,
-    flexGrow: 1,
-    width: '100%',
-    height: '100%'
-  },
-});
-
 export function Map() {
   return (
-    <View style={styles.container}>
+    <View style={style.container}>
       <MapView
         provider={PROVIDER_GOOGLE} // remove if not using Google Maps
-        style={styles.map}
+        style={style.map}
         initialRegion={region}
         camera={camera}
         minZoomLevel={9}
@@ -52,7 +36,7 @@ export function Map() {
         followsUserLocation
         showsMyLocationButton
         showsCompass>
-        <ToiletPoints />
+        <Toilets />
       </MapView>
     </View>
   );
