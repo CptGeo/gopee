@@ -5,7 +5,8 @@
             "latitude": 49.18745242808963, 
             "longitude": 16.616189628839493
         },
-        "type": "toilet"
+        "type": "toilet",
+        "title": "Toilet 1"
     },
     {
         "key": 1,
@@ -13,7 +14,8 @@
             "latitude": 49.17927616035284, 
             "longitude": 16.622969917953014
         },
-        "type": "toilet"
+        "type": "toilet",
+        "title": "Toilet 2"
     },
     {
         "key": 2,
@@ -21,7 +23,8 @@
             "latitude": 49.19075375923982, 
             "longitude": 16.609434820711613
         },
-        "type": "toilet"
+        "type": "toilet",
+        "title": "Toilet 3"
     },
     {
         "key": 3,
@@ -29,7 +32,8 @@
             "latitude": 49.19764495605897, 
             "longitude": 16.6127061098814
         },
-        "type": "toilet"
+        "type": "toilet",
+        "title": "Toilet 4"
     },
     {
         "key": 4,
@@ -37,7 +41,8 @@
             "latitude": 49.187178293315945, 
             "longitude": 16.616974845528603
         },
-        "type": "toilet"
+        "type": "toilet",
+        "title": "Toilet 5"
     },
     {
         "key": 5,
@@ -45,7 +50,8 @@
             "latitude": 49.19090538816826, 
             "longitude": 16.610423550009727
         },
-        "type": "toilet"
+        "type": "toilet",
+        "title": "Toilet 6"
     },
     {
         "key": 6,
@@ -53,6 +59,7 @@
             "latitude": 49.19051316787654, 
             "longitude": 16.608381047844887
         },
-        "type": "toilet"
+        "type": "toilet",
+        "title": "Toilet 7"
     }
 ]
